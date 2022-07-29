@@ -14,7 +14,7 @@ import pickle
 
 
 app = Flask(__name__)
-model = pickle.load(open('linearregression-1','rb')) 
+model = pickle.load(open('linearregression-1.pkl','rb')) 
 
 
 @app.route('/')
